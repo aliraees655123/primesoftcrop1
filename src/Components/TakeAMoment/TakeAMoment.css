@@ -1,0 +1,85 @@
+.mainContainerTakeMoment{
+    width: 100%;
+    height: 450px;
+    padding-top: 300px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-bottom: 100px;
+    margin-top: 60px;
+}
+.p1TakeMoment{
+    font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 56px;
+max-width: 473px;
+/* or 140% */
+
+
+color: #000000;
+}
+.p2TakeMoment{
+    font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+max-width: 586px;
+margin-top: 32px !important;
+/* 
+margin-top: 32px; */
+color: #000000;
+
+opacity: 0.71;
+}
+
+@media (max-width:853px) {
+    .mainContainerTakeMoment{
+        gap: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+}
+
+@media (max-width:780px) {
+    .mainContainerTakeMoment{
+        flex-direction: column;
+        align-items: center;
+    }
+    .momentRightPic{
+        width: 100%;
+    }
+}
+@media (max-width:600px) {
+    .momentRightPic{
+        width: 270px;
+        /* height: 403px; */
+        object-fit: contain;
+    }
+    .p1TakeMoment{
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        max-width: 180px;
+        margin: auto;
+    }
+    .p2TakeMoment{
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .topTextTakeMoment{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mainContainerTakeMoment{
+        /* padding-top: px; */
+    }
+}

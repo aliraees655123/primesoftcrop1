@@ -1,0 +1,251 @@
+.mainContainerIdea {
+  padding-top: 120px;
+}
+.projIdeHeader {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 68px;
+  /* identical to box height, or 142% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-align: center;
+
+  color: #333333;
+}
+
+.projIdeaParaTxt {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+
+  font-size: 16px;
+  line-height: 36px;
+  /* or 225% */
+
+  text-align: center;
+  margin-top: 24px !important;
+
+  color: #333333;
+  max-width: 340px;
+  margin: auto;
+}
+
+.mainContainerIdeaInner {
+  padding-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainContainerFormPI {
+  padding-top: 68px;
+  width: 960px;
+  padding-left: 64px;
+  /* gap: 38px !important; */
+  background: #ffffff;
+  box-shadow: 0px 40px 250px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  margin-top: 31px;
+  height: 630px;
+}
+
+.txtNameForm {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #5a7184;
+}
+
+.inputFieldForm {
+  background: #ffffff;
+  border: 1px solid #c3cad9;
+  width: 325px;
+  height: 48px;
+  margin-top: 12px;
+  padding-left: 15px;
+}
+
+.inputFieldForm:hover {
+  /* border: 2px solid #63d3f5; */
+}
+.inputFieldForm:focus {
+  /* border: 2px solid #63d3f5; */
+}
+
+.topTwoInputFormIdea {
+  display: flex;
+  gap: 106px;
+}
+
+.topTwoInputFormIdea1 {
+  margin-top: 38px;
+}
+
+.inputFieldFormSelect {
+  background: #ffffff;
+  /* border: 1px solid #c3cad9; */
+  width: 325px;
+  height: 48px !important;
+  margin-top: 12px;
+  border-radius: 0px !important;
+  /* padding-left: 15px; */
+}
+.css-1s2u09g-control {
+  height: 48px !important;
+  border-radius: 0px !important;
+  border: 1px solid #c3cad9;
+}
+
+.inputFieldFormSelect:hover {
+  /* border: 2px solid #63D3F5; */
+}
+
+.css-1okebmr-indicatorSeparator {
+  display: none;
+}
+
+.inputTextArea {
+  width: 832px;
+
+  padding-left: 15px;
+  resize: none;
+  padding-top: 13px;
+  margin-top: 14px;
+  height: 144px;
+  border: 1px solid #c3cad9;
+}
+.inputTextArea:hover {
+    /* border: 2px solid #63d3f5; */
+  }
+.yourSmsForm {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  /* margin-top: 14px; */
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #5a7184;
+}
+.topTextAreaField{
+    margin-top: 38px;
+}
+.topTextAreaFieldValid{
+    margin-top: 38px;
+}
+
+.topTextAreaFieldValid textarea{
+
+  border: 2px solid red;
+
+}
+
+.inputFieldFormValid1 div  .css-1s2u09g-control{
+  border: 2px solid red;
+}
+
+.sendNowBtnIdea{
+    background: #63D3F5;
+    width: 122px;
+    height: 40px;
+    font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+margin-top: 26px;
+font-size: 12px;
+border: none;
+line-height: 16px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.inputFieldFormValid input{
+  border: 2px solid red !important; 
+}
+
+.validTxt{
+  text-align: center;
+  padding-bottom: 40px;
+  color: red;
+  font-family: 'Inter';
+  font-weight: 600;
+}
+.validTxt1{
+  text-align: center;
+  padding-bottom: 10px;
+  color: red;
+  font-family: 'Inter';
+  font-weight: 600;
+}
+@media (max-width:991px) {
+    .mainContainerFormPI{
+        width: 95%;
+    }
+    
+    .inputTextArea {
+        width: 95%;
+    }
+}
+
+
+@media (max-width:905px) {
+    .mainContainerFormPI{
+        width: 95%;
+        padding-left: 20px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    
+    .inputTextArea {
+        width: 95%;
+    }
+    .topTwoInputFormIdea{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .inputFieldForm{
+        width: 95%;
+    }
+    .inputFieldFormSelect{
+        width: 95%;
+    }
+    .projIdeHeader {
+        font-size: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+@media (max-width:600px) {
+  .projIdeHeader{
+    font-size: 24px;
+    line-height: 32px;
+    max-width: 270px;
+  }
+  .projIdeaParaTxt{
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 300px;
+  }
+  .mainContainerFormPI{
+    width: 88%;
+  }
+  .mainContainerIdea{
+    padding-top: 60px;
+  }
+  .ainContainerFormPI {
+    padding-top: 36px !important;
+  }
+}
+
+

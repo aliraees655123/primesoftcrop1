@@ -1,0 +1,161 @@
+.mainContainerFooter {
+  height: 248px;
+  width: 100%;
+  display: flex;
+  flex-direction: column    ;
+  background-color: #f3f5f7;
+  justify-content: center;
+}
+.topTxtHeader {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  /* or 16px */
+
+  color: #333333;
+}
+.paraTxtFooter{
+    font-family: 'Inter';
+font-style: normal;
+line-height: 20px !important;
+font-weight: 500;
+font-size: 12px;
+max-width: 160px;
+line-height: 100%;
+margin-top: 3px !important;
+/* or 12px */
+
+
+color: #333333;
+
+}
+.topRowFooterMobile{
+    display: none;
+}
+.topRowFooter{
+    display: flex;
+    padding-top: 68px;
+    padding-left: 104px;
+    gap: 320px;
+
+}
+.privacyTxt{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+/* identical to box height, or 12px */
+
+
+color: #63D3F5;
+}
+
+.privacyTxt1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+/* identical to box height, or 12px */
+
+
+color: #333333;
+}
+
+.secondRowFooter{
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: auto;
+    width: 100%;
+    margin-top: 39px;
+}
+
+@media (max-width:763px) {
+    .topRowFooter{
+        padding-left: 0px;
+        margin: auto;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    .secondRowFooter{
+        gap: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width:600px) {
+    .privacyTxt2{
+        display: none;
+    }
+    .topRowFooterMobile{
+        display: flex;
+        flex-direction: column;
+        /* margin: unset !important; */
+
+    }
+
+    .footerIconMob{
+        width: 73px;
+        object-fit: contain;
+        opacity: .7;
+        margin-left: -11px
+
+    }
+
+    .footerMobTxt{
+        
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        color: #999999;
+        max-width: 164px;
+        font-family: 'Inter';
+
+
+    }
+
+    .mainContainerFooter{
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .copyRightTxt{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+        color: #333333;
+        font-family: 'Inter';
+
+    }
+    .topTxtHeader{
+        font-size: 14px;
+    }
+
+    .privacyTxt1{
+        font-size: 12px;
+        line-height: 12px;
+        color: #333333;
+        font-weight: 500;
+    }
+    .paraTxtFooter {
+        max-width: 150px;
+    }
+    .secondRowFooter{
+        flex-direction: column;
+    }
+    .topRowFooter{
+        margin: 0px;
+    }
+    .secondRowFooter{
+        padding-left: 0px;
+    }
+    .mainContainerFooter
+    {
+        padding-left: 24px;
+    }
+}

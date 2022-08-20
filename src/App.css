@@ -6,6 +6,12 @@
   height: 40vmin;
   pointer-events: none;
 }
+@font-face {
+  font-family:'Helvetica Neue';
+  /* src: url('./fonts/Helvetica\ Neue\ W01\ 66\ Medium\ It.ttf'); */
+  /* src: url('./fonts/Helvetica\ Neue\ LTW0697BlkCnObl.ttf'); */
+  src: url('./fonts/FreeSans.ttf');
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

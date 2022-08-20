@@ -1,0 +1,182 @@
+.mainContainerOutServicesInner {
+  max-width: 1162px;
+  height: 388px;
+  background: #fafafa;
+  border-radius: 5px;
+  margin: auto;
+  width: 100%;
+  /* margin-bottom: 97px; */
+  padding-top: 70px;
+  padding-left: 84px;
+  /* padding-top: 300px; */
+}
+.mainContainerOutServices{
+  padding-top: 150px;
+}
+.ourSerTxt {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #333333;
+}
+
+.iosDevSerTxt {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 66px;
+  /* or 183% */
+  max-width: 286px;
+  margin-top: 24px !important;
+  /* margin-right:  */
+  color: #333333;
+}
+.topTxtArrowDiv {
+  display: flex;
+  align-items: center;
+  gap: 220px;
+}
+
+.arrowOurSerImg {
+  /* position: absolute;
+    left: 0px;
+    right: 0px; */
+}
+
+.lineTopServices {
+  background-color: #333333;
+  width: 175px;
+  height: 1px;
+}
+
+.fullIosTxtOS {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  max-width: 116px;
+  margin-top: 15px !important;
+  line-height: 120%;
+  /* or 22px */
+
+  color: #161616;
+}
+.fullIosTxtOS1 {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  opacity: 0.2;
+  font-weight: 500;
+  font-size: 18px;
+  max-width: 116px;
+  margin-top: 15px !important;
+  line-height: 120%;
+  /* or 22px */
+
+  color: #161616;
+}
+.topThirdROS {
+  display: flex;
+  gap: 100px;
+  margin-top: 20px;
+  /* flex-direction: column; */
+}
+.topThirdROSCard {
+  display: flex;
+  flex-direction: column;
+}
+.lineTopServices1 {
+    background-color: #333333;
+    width: 175px;
+    height: 1px;
+    opacity: 0.2;
+  }
+  
+  @media (max-width:1185px) {
+    .mainContainerOutServicesInner{
+        width: 97%;
+        max-width: unset;
+        padding-left: 40px;
+
+    }
+    .topThirdROS{
+        gap: unset;
+        width: 100%;
+        justify-content: space-between;
+        padding-right: 20px;
+    }
+  }
+
+  @media (max-width:900px) {
+    .topTxtArrowDiv{
+        flex-direction: column !important;
+        gap: 50px;
+    }
+    .mainContainerOutServicesInner{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .topThirdROS{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+  }
+
+  @media (max-width:780px) {
+    .mainContainerOutServices{
+      padding-top: 300px;
+
+    }
+    
+  }
+  @media (max-width:600px) {
+    .mainContainerOutServices{
+      padding-top: 214px;
+
+    }
+    .ourSerTxt{
+      font-size: 14px;
+      line-height: 22px;
+      text-align: center;
+    }
+    .iosDevSerTxt{
+      font-size: 24px;
+      line-height: 32px;
+      text-align: center;
+      max-width: 200px;
+    }
+    .mainContainerOutServicesInner{
+      padding-left: 0px;
+      width: 85%;
+    }
+    .arrowOurSerImg {
+      display: none;
+    }
+    .lineTopServices{
+      width: 115px;
+    }
+    .lineTopServices1{
+      width: 115px;
+    }
+    .fullIosTxtOS{
+      font-size: 14px;
+      line-height: 22px;
+    }
+    .fullIosTxtOS1{
+      font-size: 14px;
+      line-height: 22px;
+    }
+    .topThirdROS{
+      padding-right: 0px;
+      flex-wrap: wrap;
+      flex-direction: unset;
+      padding-top: 12px;
+      justify-content: center;
+    }
+  }
